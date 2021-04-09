@@ -8,13 +8,20 @@
     font-weight: 500;
 }
 
+.grey {
+    background-color: #f3f5f9;
+}
+
 h2 {
     font-size: 35px;
 }
 h3 {
     font-size: 28px;
 }
-h2, h3 {
+h4 {
+    font-size: 19px;
+}
+h2, h3, h4 {
     color: #092251;
 }
 
@@ -33,7 +40,7 @@ h2, h3 {
 }
 .small_paragraph {
     color: #5c6a88;
-    /* font-size: 21px; */
+    font-size: 17px;
 }
 
 /* Navigation bar rules */ 
@@ -164,7 +171,6 @@ h2, h3 {
 /* First section rules */ 
 
 section.first {
-    background-color: #f3f5f9;
     padding-top: 50px;
     padding-bottom: 25px;
 }
@@ -194,15 +200,42 @@ section.first .companies img {
 /* Second section rules */
 
 section.second { 
-    padding: 70px 0;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+section.second .row {
+    padding-top: 60px;
 }
 
 section.second ul {
     list-style-type: none;
-    border-left: 1px solid grey;
+    border-left: 2px solid #ccc;
+    margin-left: 100px;
 }
 section.second ul li {
-    color: grey;
-    padding: 5px;
+    color: #5c6a88;
+    padding: 13px 10px;
     font-size: 21px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+}
+.features > * {
+    flex-basis: 40%;
+}
+.feature_box {
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+.feature_box h4 {
+    margin: 15px 0;
+}
+
+/* Third section rules */
+
+section.third {
+    background-color: 
 }
