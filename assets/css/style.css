@@ -2,7 +2,6 @@
 
 * {
     font-family: 'Inter', sans-serif;
-    font-weight: 500;
 }
 .btn {
     color: #2681ff;
@@ -47,12 +46,79 @@
 
 .jumbotron {
     background-image: url(../img/bg-banner-home.jpg);
-    height: 500px;
+}
+
+.jumbotron .row {
+    padding: 60px 0;
+}
+
+.jumbotron .col-lg-7 {
+    padding-top: 30px;
+    padding-right: 60px;
 }
 
 .jumbotron h1 {
     color: white;
+    font-size: 50px;
+    margin-bottom: 15px;
+    padding-right: 70px;
 }
+
 .jumbotron p {
     color: #afc4ff;
+    font-size: 20px;
+}
+
+.jumbotron form {
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 15px;
+}
+.jumbotron form h3 {
+    text-align: center;
+    font-size: 24px;
+}
+.jumbotron form h3:first-of-type {
+    color: #092251;
+}
+.jumbotron form h3:last-of-type {
+    color: #046dff;
+}
+.jumbotron form > *:not(h3, .tos) {
+    padding: 10px 5px;
+    border-radius: 5px;
+    border-color: transparent;
+    box-shadow: 0px 0px 1px grey;
+}
+.jumbotron form *:not(.tos) {
+    margin-bottom: 10px;
+}
+.jumbotron form [type="submit"] {
+    background-color: #579aff;
+    color: white;
+    padding: 7px 0px;
+}
+.google {
+    color: #6f6f6f;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+.google::before {
+    content: url(../img/google-icon.png);
+    zoom: 4%;
+    margin-right: 30px;
+}
+.google, .tos {
+    text-align: center;
+    font-size: 14px;
+}
+
+/* First section rules */ 
+
+section.first {
+    background-color: #f3f5f9;
+    height: 200px;
 }
