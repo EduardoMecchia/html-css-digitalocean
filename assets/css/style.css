@@ -137,3 +137,16 @@ section.first {
     background-color: #f3f5f9;
     height: 200px;
 }
+
+section.first h5 {
+    text-align: center;
+    color: #8791a8;
+    font-weight: bold;
+    padding: 50px 0;
+}
+
+section.first a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
