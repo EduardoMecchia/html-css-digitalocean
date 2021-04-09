@@ -88,6 +88,7 @@ section.sixth [class*="fa-angle"] {
     position: fixed;
     width: 100%;
     background-color: white;
+
 }
 
 .nav_bar .container, .logo, .nav_options_1, .nav_options_2 {
@@ -245,15 +246,15 @@ section.first .companies img {
 
 section.second { 
     padding-top: 70px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 section.second .row {
-    padding-top: 60px;
+    margin-top: 70px;
 }
 
 section.second .big_paragraph {
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 section.second ul {
@@ -295,7 +296,8 @@ section.third .big_paragraph {
 
 section.third .container div:nth-of-type(2) {
     color: #031c4e;
-    margin: 15px 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .slide_viewer {
@@ -330,8 +332,8 @@ section.fourth .feature_box p{
 /* Fifth section rules */
 
 section.fifth {
-    padding-top: 70px;
-    padding-bottom: 50px;
+    padding-top: 80px;
+    padding-bottom: 60px;
 }
 
 section.fifth h2 {
@@ -339,7 +341,7 @@ section.fifth h2 {
 }
 
 section.fifth .row {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .servers {
     display: flex;
@@ -353,7 +355,7 @@ section.fifth .row {
 }
 .server_entry {
     border-bottom: 1px solid white;
-    padding: 13px 0;
+    padding: 13px 15px;
     display: flex;
 }
 .server_entry:last-child {
@@ -472,7 +474,7 @@ footer ul {
 }
 
 footer ul li {
-    margin-top: 15px;
+    margin-top: 12px;
 }
 footer ul li a {
     color: #9da4b6;
