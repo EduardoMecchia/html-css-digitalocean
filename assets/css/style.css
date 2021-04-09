@@ -115,9 +115,6 @@ h2, h3 {
     flex-direction: column;
     padding: 30px 20px;
 }
-.jumbotron form h3 {
-    text-align: center;
-}
 .jumbotron form h3:last-of-type {
     color: #046dff;
 }
@@ -158,7 +155,6 @@ h2, h3 {
 }
 
 .google, .tos {
-    text-align: center;
     font-size: 14px;
 }
 .tos a{
@@ -173,15 +169,13 @@ section.first {
     padding-bottom: 25px;
 }
 
-section.first div:first-child {
-    text-align: center;
+section.first .container div:first-child {
     color: #8791a8;
     font-weight: bold;
 }
 
 section.first a {
     text-decoration: none;
-    text-align: center;
     color: #006aff;
     display: block;
 }
@@ -203,6 +197,12 @@ section.second {
     padding: 70px 0;
 }
 
-section.second .container > h2, section.second .container > p {
-    text-align: center;
+section.second ul {
+    list-style-type: none;
+    border-left: 1px solid grey;
+}
+section.second ul li {
+    color: grey;
+    padding: 5px;
+    font-size: 21px;
 }
