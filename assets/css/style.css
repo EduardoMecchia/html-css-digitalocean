@@ -28,9 +28,14 @@ h2, h3, h4 {
     color: #031c4e;
 }
 
+.link_blue {
+    color: #006bff;
+    text-decoration: none;
+}
+
 .btn {
-    color: #2681ff;
-    border: 1px solid #2681ff;
+    color: #006bff;
+    border: 1px solid #006bff;
     border-radius: 5px;
     padding: 7px 10px;
     text-decoration: none;
@@ -41,10 +46,10 @@ h2, h3, h4 {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    border: 1px solid #006aff;
+    border: 1px solid #006bff;
 }
 .full {
-    background-color: #006aff;
+    background-color: #006bff;
 }
 .circle:not(.full.circle) {
     cursor: pointer;
@@ -195,7 +200,7 @@ section.sixth [class*="fa-angle"] {
     font-size: 14px;
 }
 .tos a{
-    color: #006bff;
+    text-decoration: underline;
 }
 
 /* First section rules */ 
@@ -211,8 +216,6 @@ section.first .container div:first-child {
 }
 
 section.first a {
-    text-decoration: none;
-    color: #006bff;
     display: block;
 }
 
@@ -290,7 +293,7 @@ section.third .container div:nth-of-type(2) {
     justify-content: center;
     align-items: center;
 }
-.slide_viewer img {
+.slide_viewer > img {
     width: 600px;
 }
 
@@ -311,10 +314,6 @@ section.fourth .feature_box {
 }
 section.fourth .feature_box p{
     margin-bottom: 15px;
-}
-section.fourth .feature_box a {
-    color: #006bff;
-    text-decoration: none;
 }
 
 /* Fifth section rules */
@@ -369,9 +368,39 @@ section.fifth .row {
 /* Sixth section rules */
 
 section.sixth {
-    padding-top: 70px; 
+    padding-top: 70px;
+    padding-bottom: 50px;
 }
 
 section.sixth div:last-child {
     margin-top: 20px;
 }
+
+section.sixth .slide {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 650px;
+    padding: 70px 10px;
+}
+section.sixth .slide img {
+    width: 300px;
+    margin-bottom: 25px;
+}
+section.sixth .slide_viewer a {
+    display: block;
+}
+.author {
+    color: #031c4e;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.author_role {
+    color: #031c4e;
+    margin-bottom: 40px;
+}
+
+/* Seventh section rules */
+
