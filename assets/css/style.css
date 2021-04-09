@@ -1,0 +1,40 @@
+/* Global rules */
+
+.btn {
+    color: #2681ff;
+    border: 1px solid #2681ff;
+    border-radius: 5px;
+    padding: 7px 10px;
+    text-decoration: none;
+}
+
+/* Navigation bar rules */ 
+
+.nav_bar, .logo, .nav_options_1, .nav_options_2 {
+    display: flex;
+}
+
+.nav_bar {
+    padding: 20px 0;
+    align-items: center;
+}
+
+.logo {
+    flex-grow: 1;
+}
+.logo img {
+    width: 150px;
+}
+
+.nav_options_1, .nav_options_2 {
+    list-style: none;
+    flex-grow: 3;
+    justify-content: center;
+}
+.nav_options_1 li, .nav_options_2 li {
+    margin-right: 20px;
+}
+.nav_bar a:not(.btn) {
+    text-decoration: none;
+    color: initial;
+}
