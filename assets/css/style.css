@@ -139,19 +139,22 @@ h2, h3 {
 }
 
 .jumbotron form .google {
-    padding: 5px;
-    color: #6f6f6f;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
+    position: relative;
     box-shadow: 1px 1px 3px lightgrey;
-}
-.google .google_icon img {
-    height: 20px;
+    text-decoration: none;
+    color: #6f6f6f;
+    padding: 7px 0px;
 }
 .google span {
-    margin: 0 auto;
     font-weight: bold;
+}
+.google img {
+    height: 20px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    filter: opacity(0.7);
 }
 
 .google, .tos {
