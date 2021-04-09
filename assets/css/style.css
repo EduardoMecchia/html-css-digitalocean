@@ -14,6 +14,9 @@
 .blue {
     background-color: #0031a5;
 }
+.dark_blue {
+    background-color: #031c4e;
+}
 
 h2 {
     font-size: 35px;
@@ -426,3 +429,44 @@ section.seventh a {
 
 /* Footer rules */
 
+footer {
+    padding: 70px 0;
+    color: #9da4b6;
+}
+
+footer .row div:first-child div:last-of-type {
+    color: #5a6887;
+}
+
+footer .copyright {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+footer .social {
+    margin-top: 20px;
+}
+footer .social a {
+    color: #9da4b6;
+    font-size: 24px;
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+footer .footer_heading {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    margin-top: 15px;
+}
+footer ul li a {
+    color: #9da4b6;
+    text-decoration: none;
+}
