@@ -22,7 +22,7 @@ h4 {
     font-size: 19px;
 }
 h2, h3, h4 {
-    color: #092251;
+    color: #031c4e;
 }
 
 .btn {
@@ -33,9 +33,23 @@ h2, h3, h4 {
     text-decoration: none;
 }
 
+.circle {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid #006aff;
+}
+.full {
+    background-color: #006aff;
+}
+.circle:not(.full.circle) {
+    cursor: pointer;
+}
+
 .big_paragraph {
     color: #5c6a88;
-    font-size: 21px;
+    font-size: 22px;
     line-height: 30px;
 }
 .small_paragraph {
@@ -83,7 +97,7 @@ h2, h3, h4 {
 }
 .nav_bar a:not(.btn) {
     text-decoration: none;
-    color: #082050;
+    color: #031c4e;
 }
 
 /* Jumbotron rules */
@@ -208,6 +222,10 @@ section.second .row {
     padding-top: 60px;
 }
 
+section.second .big_paragraph {
+    margin-top: 15px;
+}
+
 section.second ul {
     list-style-type: none;
     border-left: 2px solid #ccc;
@@ -237,5 +255,38 @@ section.second ul li {
 /* Third section rules */
 
 section.third {
-    background-color: 
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+section.third .big_paragraph {
+    margin-top: 35px;
+}
+
+section.third [class*="fas"] {
+    color: #031c4e;
+    font-size: 50px;
+}
+section.third .fa-angle-left {
+    opacity: 0.7;
+    margin-right: 25px;
+}
+section.third .fa-angle-right {
+    margin-left: 25px;
+}
+
+
+section.third .container div:nth-of-type(2) {
+    color: #031c4e;
+    margin: 15px 0;
+}
+
+.slide_viewer {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide_viewer img {
+    width: 600px;
 }
