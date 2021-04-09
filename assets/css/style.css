@@ -1,5 +1,9 @@
 /* Global rules */
 
+* {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
 .btn {
     color: #2681ff;
     border: 1px solid #2681ff;
@@ -37,4 +41,18 @@
 .nav_bar a:not(.btn) {
     text-decoration: none;
     color: initial;
+}
+
+/* Jumbotron rules */
+
+.jumbotron {
+    background-image: url(../img/bg-banner-home.jpg);
+    height: 500px;
+}
+
+.jumbotron h1 {
+    color: white;
+}
+.jumbotron p {
+    color: #afc4ff;
 }
