@@ -179,7 +179,7 @@ h2, h3, h4 {
     font-size: 14px;
 }
 .tos a{
-    color: #006aff;
+    color: #006bff;
 }
 
 /* First section rules */ 
@@ -196,7 +196,7 @@ section.first .container div:first-child {
 
 section.first a {
     text-decoration: none;
-    color: #006aff;
+    color: #006bff;
     display: block;
 }
 
@@ -237,14 +237,14 @@ section.second ul li {
     font-size: 21px;
 }
 
-.features {
+section.second .features {
     display: flex;
     flex-wrap: wrap;
 }
-.features > * {
+section.second .features > * {
     flex-basis: 40%;
 }
-.feature_box {
+section.second .feature_box {
     margin-right: 40px;
     margin-bottom: 30px;
 }
@@ -275,7 +275,6 @@ section.third .fa-angle-right {
     margin-left: 25px;
 }
 
-
 section.third .container div:nth-of-type(2) {
     color: #031c4e;
     margin: 15px 0;
@@ -289,4 +288,26 @@ section.third .container div:nth-of-type(2) {
 }
 .slide_viewer img {
     width: 600px;
+}
+
+/* Fourth section rules */
+
+section.fourth {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+section.fourth .features {
+    display: flex;
+    margin-top: 40px;
+}
+section.fourth .feature_box {
+    margin-right: 40px;
+}
+section.fourth .feature_box p{
+    margin-bottom: 15px;
+}
+section.fourth .feature_box a {
+    color: #006bff;
+    text-decoration: none;
 }
