@@ -51,7 +51,7 @@
 }
 .nav_bar a:not(.btn) {
     text-decoration: none;
-    color: initial;
+    color: #082050;
 }
 
 /* Jumbotron rules */
@@ -64,7 +64,7 @@
 }
 
 .jumbotron .row {
-    padding: 60px 0;
+    padding: 70px 0;
 }
 
 .jumbotron .col-lg-7 {
@@ -74,14 +74,15 @@
 
 .jumbotron h1 {
     color: white;
-    font-size: 50px;
+    font-size: 57px;
     margin-bottom: 15px;
     padding-right: 70px;
 }
 
 .jumbotron p {
-    color: #afc4ff;
-    font-size: 20px;
+    color: #bccbfd;
+    font-size: 21px;
+    line-height: 30px;
 }
 
 .jumbotron form {
@@ -89,11 +90,11 @@
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    padding: 30px 15px;
+    padding: 30px 20px;
 }
 .jumbotron form h3 {
     text-align: center;
-    font-size: 24px;
+    font-size: 28px;
 }
 .jumbotron form h3:first-of-type {
     color: #092251;
@@ -104,31 +105,42 @@
 .jumbotron form > *:not(h3, .tos) {
     padding: 10px 5px;
     border-radius: 5px;
-    border-color: transparent;
-    box-shadow: 0px 0px 1px grey;
+    border: 1px solid #eeeeee;
 }
-.jumbotron form *:not(.tos) {
+.jumbotron form > *:not(.tos) {
     margin-bottom: 10px;
+}
+.jumbotron form [type="email"], [type="password"] {
+    font-size: 16px;
 }
 .jumbotron form [type="submit"] {
     background-color: #579aff;
     color: white;
     padding: 7px 0px;
 }
-.google {
+
+.jumbotron form .google {
+    padding: 5px;
     color: #6f6f6f;
     text-decoration: none;
     font-weight: bold;
-    display: block;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 3px lightgrey;
 }
-.google::before {
-    content: url(../img/google-icon.png);
-    zoom: 4%;
-    margin-right: 30px;
+.google .google_icon img {
+    height: 20px;
 }
+.google span {
+    margin: 0 auto;
+}
+
 .google, .tos {
     text-align: center;
     font-size: 14px;
+}
+.tos a{
+    color: #006aff;
 }
 
 /* First section rules */ 
@@ -138,7 +150,7 @@ section.first {
     height: 200px;
 }
 
-section.first h5 {
+section.first h4 {
     text-align: center;
     color: #8791a8;
     font-weight: bold;
@@ -148,5 +160,8 @@ section.first h5 {
 section.first a {
     text-decoration: none;
     text-align: center;
+    color: #006aff;
     display: block;
 }
+
+/* Second section rules */
