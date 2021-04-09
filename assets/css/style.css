@@ -404,3 +404,25 @@ section.sixth .slide_viewer a {
 
 /* Seventh section rules */
 
+section.seventh {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+section.seventh h2 {
+    color: white;
+    margin-bottom: 30px;
+}
+
+section.seventh a {
+    width: 190px;
+    display: block;
+    margin: auto;
+    border-radius: 7px;
+    background-color: white;
+    padding: 15px 5px;
+    font-weight: bold;
+}
+
+/* Footer rules */
+
