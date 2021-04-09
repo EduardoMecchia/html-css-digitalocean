@@ -58,6 +58,8 @@
 
 .jumbotron {
     background-image: url(../img/bg-banner-home.jpg);
+    background-size: contain;
+    background-position-y: 110%;
     padding-top: 60px;
 }
 
