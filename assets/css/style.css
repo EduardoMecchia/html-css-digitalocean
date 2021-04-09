@@ -13,11 +13,17 @@
 
 /* Navigation bar rules */ 
 
-.nav_bar, .logo, .nav_options_1, .nav_options_2 {
+.nav_bar {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+.nav_bar .container, .logo, .nav_options_1, .nav_options_2 {
     display: flex;
 }
 
-.nav_bar {
+.nav_bar .container {
     padding: 20px 0;
     align-items: center;
 }
@@ -31,8 +37,14 @@
 
 .nav_options_1, .nav_options_2 {
     list-style: none;
-    flex-grow: 3;
+}
+.nav_options_1 {
+    flex-grow: 5;
     justify-content: center;
+}
+.nav_options_2 {
+    flex-grow: 2;
+    justify-content: flex-end;
 }
 .nav_options_1 li, .nav_options_2 li {
     margin-right: 20px;
@@ -46,6 +58,7 @@
 
 .jumbotron {
     background-image: url(../img/bg-banner-home.jpg);
+    padding-top: 60px;
 }
 
 .jumbotron .row {
