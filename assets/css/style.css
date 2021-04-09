@@ -8,6 +8,12 @@
     font-weight: 500;
 }
 
+h2 {
+    font-size: 35px;
+}
+h3 {
+    font-size: 28px;
+}
 h2, h3 {
     color: #092251;
 }
@@ -18,6 +24,16 @@ h2, h3 {
     border-radius: 5px;
     padding: 7px 10px;
     text-decoration: none;
+}
+
+.big_paragraph {
+    color: #5c6a88;
+    font-size: 21px;
+    line-height: 30px;
+}
+.small_paragraph {
+    color: #5c6a88;
+    /* font-size: 21px; */
 }
 
 /* Navigation bar rules */ 
@@ -88,10 +104,8 @@ h2, h3 {
     padding-right: 70px;
 }
 
-.jumbotron p {
-    color: #bccbfd;
-    font-size: 21px;
-    line-height: 30px;
+.jumbotron .big_paragraph {
+    color: #b9caff;
 }
 
 .jumbotron form {
@@ -103,7 +117,6 @@ h2, h3 {
 }
 .jumbotron form h3 {
     text-align: center;
-    font-size: 28px;
 }
 .jumbotron form h3:last-of-type {
     color: #046dff;
@@ -184,7 +197,7 @@ section.first .companies img {
 /* Second section rules */
 
 section.second { 
-    padding: 50px 0;
+    padding: 70px 0;
 }
 
 section.second .container > h2, section.second .container > p {
