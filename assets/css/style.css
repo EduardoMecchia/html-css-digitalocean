@@ -302,7 +302,8 @@ section.fourth .features {
     margin-top: 40px;
 }
 section.fourth .feature_box {
-    margin-right: 40px;
+    padding-right: 20px;
+    flex: 1 1 0;
 }
 section.fourth .feature_box p{
     margin-bottom: 15px;
@@ -310,4 +311,10 @@ section.fourth .feature_box p{
 section.fourth .feature_box a {
     color: #006bff;
     text-decoration: none;
+}
+
+/* Fifth section rules */
+
+section.fifth {
+    background-color: #0031a5;
 }
