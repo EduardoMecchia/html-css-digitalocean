@@ -95,9 +95,6 @@ section.sixth [class*="fa-angle"] {
     display: flex;
 }
 
-/* .nav_bar .container * {
-    font-weight: 600;
-} */
 .nav_bar .container {
     padding-top: 20px;
     padding-bottom: 15px;
@@ -144,13 +141,12 @@ section.sixth [class*="fa-angle"] {
 }
 
 .jumbotron .col-lg-7 {
-    padding-top: 30px;
-    padding-right: 60px;
+    padding-top: 20px;
 }
 
 .jumbotron h1 {
     color: white;
-    font-size: 57px;
+    font-size: 60px;
     margin-bottom: 15px;
     padding-right: 70px;
 }
@@ -165,6 +161,7 @@ section.sixth [class*="fa-angle"] {
     display: flex;
     flex-direction: column;
     padding: 30px 20px;
+    margin-left: 25px;
 }
 .jumbotron form h3:first-of-type {
     margin-top: 12px;
@@ -198,6 +195,7 @@ section.sixth [class*="fa-angle"] {
 }
 .google span {
     font-weight: bold;
+    color: #626262;
 }
 .google img {
     height: 20px;
@@ -280,7 +278,8 @@ section.second .feature_box {
     margin-bottom: 30px;
 }
 .feature_box h4 {
-    margin: 15px 0;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 /* Third section rules */
