@@ -39,6 +39,7 @@ h2, h3, h4 {
 .btn {
     color: #006bff;
     border: 1px solid #006bff;
+    font-size: 14px;
     border-radius: 5px;
     padding: 7px 10px;
     text-decoration: none;
@@ -93,8 +94,12 @@ section.sixth [class*="fa-angle"] {
     display: flex;
 }
 
+/* .nav_bar .container * {
+    font-weight: 600;
+} */
 .nav_bar .container {
-    padding: 20px 0;
+    padding-top: 20px;
+    padding-bottom: 15px;
     align-items: center;
 }
 
@@ -160,6 +165,9 @@ section.sixth [class*="fa-angle"] {
     flex-direction: column;
     padding: 30px 20px;
 }
+.jumbotron form h3:first-of-type {
+    margin-top: 12px;
+}
 .jumbotron form h3:last-of-type {
     color: #046dff;
 }
@@ -214,8 +222,8 @@ section.first {
 }
 
 section.first .container div:first-child {
-    color: #8791a8;
-    font-weight: bold;
+    color: #6f7b97;
+    font-weight: 600;
 }
 
 section.first a {
