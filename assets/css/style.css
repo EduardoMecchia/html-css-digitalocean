@@ -3,6 +3,15 @@
 * {
     font-family: 'Inter', sans-serif;
 }
+
+*:not(h1, h2, h3, h4, h5, h6) {
+    font-weight: 500;
+}
+
+h2, h3 {
+    color: #092251;
+}
+
 .btn {
     color: #2681ff;
     border: 1px solid #2681ff;
@@ -96,9 +105,6 @@
     text-align: center;
     font-size: 28px;
 }
-.jumbotron form h3:first-of-type {
-    color: #092251;
-}
 .jumbotron form h3:last-of-type {
     color: #046dff;
 }
@@ -108,7 +114,7 @@
     border: 1px solid #eeeeee;
 }
 .jumbotron form > *:not(.tos) {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 .jumbotron form [type="email"], [type="password"] {
     font-size: 16px;
@@ -123,7 +129,6 @@
     padding: 5px;
     color: #6f6f6f;
     text-decoration: none;
-    font-weight: bold;
     display: flex;
     align-items: center;
     box-shadow: 1px 1px 3px lightgrey;
@@ -133,6 +138,7 @@
 }
 .google span {
     margin: 0 auto;
+    font-weight: bold;
 }
 
 .google, .tos {
@@ -147,14 +153,14 @@
 
 section.first {
     background-color: #f3f5f9;
-    height: 200px;
+    padding-top: 50px;
+    padding-bottom: 25px;
 }
 
-section.first h4 {
+section.first div:first-child {
     text-align: center;
     color: #8791a8;
     font-weight: bold;
-    padding: 50px 0;
 }
 
 section.first a {
@@ -164,4 +170,23 @@ section.first a {
     display: block;
 }
 
+section.first .companies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+section.first .companies img {
+    margin-right: 10px;
+    width: 100%;
+}
+
 /* Second section rules */
+
+section.second { 
+    padding: 50px 0;
+}
+
+section.second .container > h2, section.second .container > p {
+    text-align: center;
+}
