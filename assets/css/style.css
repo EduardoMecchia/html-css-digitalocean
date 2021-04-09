@@ -434,7 +434,7 @@ footer {
     color: #9da4b6;
 }
 
-footer .row div:first-child div:last-of-type {
+footer .row div:first-child div:nth-of-type(2) {
     color: #5a6887;
 }
 
