@@ -60,6 +60,19 @@ h2, h3, h4 {
     font-size: 17px;
 }
 
+section.third [class*="fa-angle"],
+section.sixth [class*="fa-angle"] {
+    color: #031c4e;
+    font-size: 50px;
+}
+.fa-angle-left {
+    opacity: 0.7;
+    margin-right: 25px;
+}
+.fa-angle-right {
+    margin-left: 25px;
+}
+
 /* Navigation bar rules */ 
 
 .nav_bar {
@@ -266,18 +279,6 @@ section.third .big_paragraph {
     margin-top: 35px;
 }
 
-section.third [class*="fas"] {
-    color: #031c4e;
-    font-size: 50px;
-}
-section.third .fa-angle-left {
-    opacity: 0.7;
-    margin-right: 25px;
-}
-section.third .fa-angle-right {
-    margin-left: 25px;
-}
-
 section.third .container div:nth-of-type(2) {
     color: #031c4e;
     margin: 15px 0;
@@ -363,4 +364,14 @@ section.fifth .row {
     color: #01d5d0;
     text-decoration: none;
     text-align: right;
+}
+
+/* Sixth section rules */
+
+section.sixth {
+    padding-top: 70px; 
+}
+
+section.sixth div:last-child {
+    margin-top: 20px;
 }
