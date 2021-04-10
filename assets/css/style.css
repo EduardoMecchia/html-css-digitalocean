@@ -1,5 +1,6 @@
 /* Global rules */
 
+
 * {
     font-family: 'Inter', sans-serif;
 }
@@ -482,5 +483,31 @@ footer ul li a {
 /* Media queries */
 
 @media screen and (max-width: 768px) {
-
+    .nav_options_1,
+    .nav_options_2 {
+        display: none;
+    }
+    .logo img {
+        width: 200px;
+        margin-left: 15px;
+    }
+    .jumbotron form {
+        margin-left: 0px;
+    }
+    section.first .companies img {
+        width: 10%;
+    }
+    .fa-angle-left,
+    .fa-angle-right {
+        display: none;
+    }
+    .slide_viewer > img {
+        width: 200px;
+    }
 }
+
+* {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  }
