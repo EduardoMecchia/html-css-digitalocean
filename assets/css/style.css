@@ -564,6 +564,9 @@ footer ul li a {
     .slide_viewer > img {
         width: 60%;
     }
+    section.third .container > div:last-child {
+        margin-top: 100px;
+    }
 
     /* Fourth section */
     section.fourth {
@@ -631,6 +634,9 @@ footer ul li a {
     }
 
     /* First section */
+    section.first .companies {
+        padding-top: 30px;
+    }
     section.first .companies .company_logo {
         flex-basis: initial;
     }
