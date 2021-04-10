@@ -440,13 +440,14 @@ section.seventh h2 {
     margin-bottom: 30px;
 }
 
+section.seventh .account {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
 section.seventh a {
-    width: 190px;
-    display: block;
-    margin: auto;
     border-radius: 7px;
     background-color: white;
-    padding: 15px 5px;
+    padding: 15px;
     font-weight: bold;
 }
 
@@ -540,6 +541,7 @@ footer ul li a {
     }
     section.first .companies .company_logo {
         flex-basis: 40%;
+        margin-right: 0;
     }
 
     /* Second section */
