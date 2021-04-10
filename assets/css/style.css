@@ -320,7 +320,7 @@ section.third .container div:nth-of-type(2) {
     align-items: center;
 }
 .slide_viewer > img {
-    width: 600px;
+    width: 55%;
 }
 
 /* Fourth section rules */
@@ -399,7 +399,7 @@ section.sixth {
 }
 
 section.sixth div:last-child {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 section.sixth .slide {
@@ -641,7 +641,35 @@ footer ul li a {
         flex-basis: initial;
     }
 
+    /* Third section */
+    .slide_viewer > img {
+        width: 50%;
+    }
 
+    /* Fifth section */
+    .first.servers, 
+    .second.servers {
+        margin-bottom: 20px;
+    }
+    .first.servers {
+        margin-right: 0px;
+    }
+    .second.servers {
+        margin-left: 0px;
+    }
+    
+    /* Sixth section */
+    .fa-angle-left {
+        margin-right: 10px;
+    }
+    .fa-angle-right {
+        margin-left: 10px;
+    }
+
+    /* Footer */
+    footer .row > div:not(div:first-child) {
+        margin-top: 25px;
+    }
 }
 
 /* * {
