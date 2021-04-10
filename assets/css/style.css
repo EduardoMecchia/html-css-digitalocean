@@ -89,7 +89,7 @@ section.sixth [class*="fa-angle"] {
     position: fixed;
     width: 100%;
     background-color: white;
-
+    z-index: 2;
 }
 
 .nav_bar .container, .logo, .nav_options_1, .nav_options_2 {
@@ -487,6 +487,16 @@ footer ul li a {
 
 /* Smartphone media query */
 @media screen and (max-width: 768px) {
+    /* Global */
+
+    h2 {
+        font-size: 41px;
+    }
+    section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
     /* Navigation bar */
     .nav_options_1,
     .nav_options_2 {
@@ -508,11 +518,6 @@ footer ul li a {
     .jumbotron form {
         margin-top: 15px;
         margin-left: 0px;
-    }
-
-    section {
-        padding-left: 15px;
-        padding-right: 15px;
     }
 
     /* First section */
@@ -574,8 +579,22 @@ footer ul li a {
 
     /* Sixth section */
     section.sixth .slide {
-
+        width: 70%;
+        padding: 50px 5px;
     }
+    section.sixth .slide img {
+        width: 100%;
+    }
+
+    /* Footer */
+    footer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    footer .row > div:not(div:first-child) {
+        margin-top: 25px;
+    }
+
 }
 
 /* Tablet media query */
