@@ -243,10 +243,15 @@ section.first .companies {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 section.first .companies .company_logo {
-    margin-right: 10px;
+    margin-right: 15px;
+    flex-basis: 150%;
+}
+section.first .company_logo img {
+    width: 100%;
 }
 
 /* Second section rules */
@@ -530,11 +535,11 @@ footer ul li a {
     /* First section */
     section.first .companies {
         flex-flow: row wrap;
-        padding: 10px 25px;
         margin-top: 20px;
+        justify-content: space-around;
     }
-    section.first .companies img {
-        flex: 1 0 40%;
+    section.first .companies .company_logo {
+        flex-basis: 40%;
     }
 
     /* Second section */
@@ -623,6 +628,11 @@ footer ul li a {
     }
     .nav_bar .burger {
         display: block;
+    }
+
+    /* First section */
+    section.first .companies .company_logo {
+        flex-basis: initial;
     }
 
 
