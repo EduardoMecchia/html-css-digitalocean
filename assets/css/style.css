@@ -193,6 +193,7 @@ section.sixth [class*="fa-angle"] {
     background-color: #579aff;
     color: white;
     padding: 7px 0px;
+    cursor: pointer;
 }
 
 .jumbotron form .google {
