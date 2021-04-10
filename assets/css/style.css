@@ -131,8 +131,8 @@ section.sixth [class*="fa-angle"] {
 
 .jumbotron {
     background-image: url(../img/bg-banner-home.jpg);
-    background-size: contain;
-    background-position-y: 110%;
+    background-size: 115%;
+    background-position: bottom;
     padding-top: 60px;
 }
 
@@ -477,4 +477,10 @@ footer ul li {
 footer ul li a {
     color: #9da4b6;
     text-decoration: none;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 768px) {
+
 }
