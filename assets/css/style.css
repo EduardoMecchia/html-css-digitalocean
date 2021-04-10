@@ -210,6 +210,9 @@ section.sixth [class*="fa-angle"] {
 .google, .tos {
     font-size: 14px;
 }
+.tos {
+    margin-top: 5px;
+}
 .tos a{
     text-decoration: underline;
 }
@@ -394,7 +397,7 @@ section.sixth .slide {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 650px;
+    width: 55%;
     padding: 70px 10px;
 }
 section.sixth .slide img {
@@ -482,32 +485,104 @@ footer ul li a {
 
 /* Media queries */
 
+/* Smartphone media query */
 @media screen and (max-width: 768px) {
+    /* Navigation bar */
     .nav_options_1,
     .nav_options_2 {
         display: none;
     }
     .logo img {
         width: 200px;
-        margin-left: 15px;
+        margin-left: 20px;
+    }
+
+    /* Jumbotron */
+    .jumbotron .row {
+        padding: 70px 15px;
+    }
+    .jumbotron h1 {
+        font-size: 42px;
+        padding-right: 0px;
     }
     .jumbotron form {
+        margin-top: 15px;
         margin-left: 0px;
     }
-    section.first .companies img {
-        width: 10%;
+
+    section {
+        padding-left: 15px;
+        padding-right: 15px;
     }
-    .fa-angle-left,
-    .fa-angle-right {
+
+    /* First section */
+    section.first .companies {
+        flex-flow: row wrap;
+        padding: 10px 25px;
+        margin-top: 20px;
+    }
+    section.first .companies img {
+        flex: 1 0 40%;
+    }
+
+    /* Second section */
+    section.second ul {
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+    section.second .features .feature_box{
+        flex-basis: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    /* Third section */
+    .fas.fa-angle-left,
+    .fas.fa-angle-right {
         display: none;
     }
+    .slide_viewer {
+        margin-top: 150px;
+    }
     .slide_viewer > img {
-        width: 200px;
+        width: 60%;
+    }
+
+    /* Fourth section */
+    section.fourth {
+        padding-bottom: 60px;
+    }
+    section.fourth .features {
+        flex-wrap: wrap;
+    }
+    section.fourth .features .feature_box {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    /* Fifth section */
+    .first.servers, 
+    .second.servers {
+        margin-bottom: 20px;
+    }
+    .first.servers {
+        margin-right: 0px;
+    }
+    .second.servers {
+        margin-left: 0px;
+    }
+
+    /* Sixth section */
+    section.sixth .slide {
+
     }
 }
 
-* {
+/* Tablet media query */
+/* @media screen and (min-w) */
+
+/* * {
     background: #000 !important;
     color: #0f0 !important;
     outline: solid #f00 1px !important;
-  }
+  } */
