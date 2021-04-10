@@ -141,6 +141,11 @@ section.sixth [class*="fa-angle"] {
     color: #3a8aff;
 }
 
+.nav_options_1 li:hover a,
+.nav_options_2 li:hover a{
+    color: #006bff;
+}
+
 /* Jumbotron rules */
 
 .jumbotron {
