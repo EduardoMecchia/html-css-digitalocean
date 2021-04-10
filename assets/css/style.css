@@ -245,9 +245,8 @@ section.first .companies {
     justify-content: center;
     padding: 10px 0;
 }
-section.first .companies img {
+section.first .companies .company_logo {
     margin-right: 10px;
-    width: 100%;
 }
 
 /* Second section rules */
@@ -571,6 +570,7 @@ footer ul li a {
     section.fourth .features .feature_box {
         flex-basis: 100%;
         margin-bottom: 30px;
+        padding-right: 0;
     }
 
     /* Fifth section */
