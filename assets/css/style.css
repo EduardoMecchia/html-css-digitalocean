@@ -633,12 +633,23 @@ footer ul li a {
         display: block;
     }
 
+    /* Jumbotron */ 
+    .jumbotron h1 {
+        font-size: 42px;
+        padding-right: 0;
+    }
+
     /* First section */
     section.first .companies {
         padding-top: 30px;
     }
     section.first .companies .company_logo {
         flex-basis: initial;
+    }
+
+    /* Second section */
+    section.second ul {
+        margin-left: 60px;
     }
 
     /* Third section */
