@@ -562,8 +562,8 @@ footer ul li:hover a {
     }
 }
 .chat_message {
-    cursor: pointer;
     width: 350px;
+    cursor: pointer;
     padding: 10px;
     margin-right: 20px;
     border-radius: 7px;
@@ -728,6 +728,17 @@ footer ul li:hover a {
         margin-top: 25px;
     }
 
+    /* Chat */
+    .chat {
+        flex-flow: row wrap-reverse;
+        width: 65%;
+    }
+    .chat_message::before {
+        content: initial;
+    }
+    .chat_icon { 
+        margin-bottom: 20px;
+    }
 }
 
 /* Tablet media query */
@@ -801,5 +812,17 @@ footer ul li:hover a {
     /* Footer */
     footer .row > div:not(.copyright) {
         margin-top: 25px;
+    }
+
+    /* Chat */
+    .chat {
+        flex-flow: row wrap-reverse;
+        width: 45%;
+    }
+    .chat_message::before {
+        content: initial;
+    }
+    .chat_icon { 
+        margin-bottom: 20px;
     }
 }
