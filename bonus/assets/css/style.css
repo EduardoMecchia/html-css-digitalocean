@@ -99,14 +99,14 @@ section.sixth [class*="fa-angle"] {
     box-shadow: rgb(3 27 78 / 10%) 0px 2px 4px;
 }
 
-.nav_bar .container, 
+.nav_bar > .container, 
 .logo, 
 .nav_options_1, 
 .nav_options_2 {
     display: flex;
 }
 
-.nav_bar .container {
+.nav_bar > .container {
     padding-top: 20px;
     padding-bottom: 15px;
     align-items: center;
@@ -153,6 +153,48 @@ section.sixth [class*="fa-angle"] {
     background-color: #006aff;
     border: 1px solid white;
     color: white;
+}
+
+/* Navigation bar dropdown rules */ 
+
+.dropdown {
+    padding: 50px 0;
+    border-top: 2px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    color: #031c4e;
+    width: 100%;
+    display: none;
+    background-color: white;
+    position: absolute;
+    top: 67px;
+    left: 0;
+}
+.dd_menu:hover .dropdown {
+    display: flex;
+}
+.dd_heading {
+    margin-bottom: 30px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.dd_entry {
+    display: flex;
+    margin-bottom: 30px;
+}
+.dd_entry img {
+    height: 40px;
+    width: 40px;
+}
+.dd_entry div div:first-of-type {
+    font-weight: bold;
+}
+
+.community.dropdown {
+    
+}
+.community.dropdown [class*="col-"]:nth-child(2) div:not(.dd_heading) {
+    font-size: 14px;
+    margin-bottom: 15px;
 }
 
 /* Jumbotron rules */
