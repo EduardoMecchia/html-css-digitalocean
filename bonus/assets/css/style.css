@@ -236,6 +236,7 @@ section.sixth [class*="fa-angle"] {
 .google span {
     font-weight: bold;
     color: #626262;
+    transition: all 0.5s;
 }
 .google img {
     height: 20px;
@@ -540,6 +541,32 @@ footer ul li a {
 }
 footer ul li:hover a {
     color: white;
+}
+
+/* Fixed chat */
+
+.chat {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+.chat_message {
+    border-radius: 10px;
+}
+.chat_message::before {
+    content: "";
+    position: absolute;
+    border-color: rgba(194, 225, 245, 0);
+    border: solid transparent;
+    border-bottom-color: white;
+    border-width: 11px;
+    margin-left: -10px;
+    top: -21px;
+    right: 22px;
+    z-index: 1;
+}
+.chat_counter {
+
 }
 
 /* Media queries */

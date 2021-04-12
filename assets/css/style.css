@@ -236,6 +236,7 @@ section.sixth [class*="fa-angle"] {
 .google span {
     font-weight: bold;
     color: #626262;
+    transition: all 0.5s;
 }
 .google img {
     height: 20px;
