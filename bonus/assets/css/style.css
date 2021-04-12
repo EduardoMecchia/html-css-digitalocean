@@ -96,7 +96,7 @@ section.sixth [class*="fa-angle"] {
     width: 100%;
     background-color: white;
     z-index: 2;
-    box-shadow: 0px 1px 10px grey;
+    box-shadow: rgb(3 27 78 / 10%) 0px 2px 4px;
 }
 
 .nav_bar .container, 
