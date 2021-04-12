@@ -575,6 +575,7 @@ footer ul li:hover a {
     }
     .nav_bar .burger {
         display: block;
+        align-self: center;
     }
 
     /* Jumbotron */
@@ -683,10 +684,10 @@ footer ul li:hover a {
     }
     .logo img {
         width: 200px;
-        margin-left: 20px;
     }
     .nav_bar .burger {
         display: block;
+        align-self: center;
     }
 
     /* Jumbotron */ 

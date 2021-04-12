@@ -38,7 +38,7 @@ h4 {
     color: #006aff;
     text-decoration: none;
 }
-.link_blue:hover:not(.account a) {
+.link_blue:hover:not(.account a):not(.products.dropdown *) {
     color: #1633ff !important;
 }
 
@@ -668,7 +668,7 @@ footer ul li:hover a {
 }
 
 .community.dropdown {
-    transition: all 3s;
+    
 }
 .community.dropdown [class*="col-"]:nth-child(2) a {
     font-size: 14px;
@@ -707,6 +707,7 @@ footer ul li:hover a {
     }
     .nav_bar .burger {
         display: block;
+        align-self: center;
     }
 
     /* Jumbotron */
@@ -826,10 +827,10 @@ footer ul li:hover a {
     }
     .logo img {
         width: 200px;
-        margin-left: 20px;
     }
     .nav_bar .burger {
         display: block;
+        align-self: center;
     }
 
     /* Jumbotron */ 
