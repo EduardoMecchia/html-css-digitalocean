@@ -515,6 +515,15 @@ footer ul li a {
     text-decoration: none;
 }
 
+/* Fixed chat */
+
+.chat {
+
+}
+.chat_message {
+    border-radius: 7px;
+}
+
 /* Media queries */
 
 /* Smartphone media query */

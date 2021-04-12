@@ -38,6 +38,9 @@ h4 {
     color: #006aff;
     text-decoration: none;
 }
+.link_blue:hover:not(.account a) {
+    color: #1633ff !important;
+}
 
 .btn {
     color: #006aff;
@@ -209,8 +212,12 @@ section.sixth [class*="fa-angle"] {
 .jumbotron form [type="submit"] {
     background-color: #579aff;
     color: white;
-    padding: 7px 0px;
     cursor: pointer;
+    transition: all 0.5s;
+}
+.jumbotron form [type="submit"]:hover {
+    box-shadow: inset -2px -2px 2px 0px #006aaf;
+    background-color: #1633ff;
 }
 
 .jumbotron form .google {
@@ -218,7 +225,13 @@ section.sixth [class*="fa-angle"] {
     box-shadow: 1px 1px 3px lightgrey;
     text-decoration: none;
     color: #6f6f6f;
-    padding: 7px 0px;
+    transition: all 0.5s;
+}
+.jumbotron form .google:hover {
+    background-color: #006aff;
+}
+.jumbotron form .google:hover span {
+    color: white;
 }
 .google span {
     font-weight: bold;
@@ -411,6 +424,9 @@ section.fifth .row {
     text-decoration: none;
     text-align: right;
 }
+.server_test:hover {
+    color: aqua;
+}
 
 /* Sixth section rules */
 
@@ -470,6 +486,11 @@ section.seventh a {
     background-color: white;
     padding: 15px;
     font-weight: bold;
+    transition: all 0.5s;
+}
+section.seventh a:hover {
+    opacity: 0.7;
+    box-shadow: inset -2px -2px 2px 0px grey;
 }
 
 /* Footer rules */
@@ -497,6 +518,9 @@ footer .social a {
     text-decoration: none;
     margin-right: 8px;
 }
+footer .social a:hover i {
+    color: white;
+}
 
 footer .footer_heading {
     color: white;
@@ -513,6 +537,9 @@ footer ul li {
 footer ul li a {
     color: #9da4b6;
     text-decoration: none;
+}
+footer ul li:hover a {
+    color: white;
 }
 
 /* Media queries */
