@@ -629,10 +629,17 @@ footer ul li:hover a {
     display: none;
     background-color: white;
     position: absolute;
-    top: 67px;
+    top: 68px;
     left: 0;
 }
+.mini_dd {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: 68px;
+}
 .dd_menu:hover .dropdown,
+.dd_menu:hover .mini_dd,
 .dd_entry,
 .products.dropdown .container > div:nth-child(2),
 .category,
@@ -708,6 +715,16 @@ footer ul li:hover a {
     width: 75px;
     height: 75px;
 }
+
+.support.mini_dd {
+    border: 2px solid lightgrey;
+    flex-wrap: wrap;
+    width: 145px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
 .products.dropdown [class*="col-"]:nth-child(2) a,
 .community.dropdown [class*="col-"]:nth-child(2) a {
     font-size: 14px;
@@ -716,7 +733,8 @@ footer ul li:hover a {
     display: block;
 }
 .products.dropdown [class*="col-"] a:hover:not(.more_products),
-.community.dropdown [class*="col-"] a:hover {
+.community.dropdown [class*="col-"] a:hover,
+.support.mini_dd a:hover {
     color: #006aff;
 }
 .products.dropdown [class*="col-"]:nth-child(2) a {
